@@ -12,6 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
     form.action = '/';
     form.method = 'GET';
 
+    allergy.placeholder = 'Do you have any food allergies?';
+    additional.placeholder = 'Anything else we should know?';
+
     // Function to handle form changes
     function formChanged(event) {
         event.preventDefault();
@@ -39,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     async function finishVote(activity) {
         vote(activity).then((data) => {
             closePopup(document.querySelector('._popup'));
-            showMessage('Success!', 'Your choice has been saved and our team will review your vote.<br> You can view the statistics using the button below.<br> Note that possible food allergies or extra info is not included in it for privacy reasons.', '<br>', 'View statistics', viewStats, data);
+            showMessage('Success!', 'Your choice has been saved and our team will review your notes.<br> If you would like too see what activities other people like to do, you can click on the button below.', '<br>', 'View statistics', viewStats, data);
         });
     }
 
