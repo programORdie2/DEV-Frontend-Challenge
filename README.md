@@ -13,7 +13,7 @@ It's a resizable site, which makes it usable for both desktop and mobile users.
 ## Demo
 
 [A preview of the site is available here](https://programordie2.github.io/DEV-Frontend-Challenge/)
-[<img src="demo.gif">](https://programordie2.github.io/DEV-Frontend-Challenge/)
+[<img src="demo.jpg">](https://programordie2.github.io/DEV-Frontend-Challenge/)
 
 
 ## Journey
