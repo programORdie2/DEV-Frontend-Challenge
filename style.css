@@ -65,7 +65,7 @@ body {
     color: var(--text-color);
     font-family: sans-serif;
     color-scheme: dark;
-    background: url('background.png') no-repeat center center fixed;
+    background: url('https://programordie.neocities.org/background.jpg') no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
 }
@@ -119,7 +119,7 @@ option:first-child {
 textarea {
     padding: 0.8em 0.8em;
     border-radius: var(--border-radius);
-    background-color: #3e3e3e18;
+    background-color: #ffffff20;
     color: var(--text-color);
     border: var(--border);
     box-shadow: var(--box-shadow);
@@ -141,7 +141,7 @@ button {
     line-height: 1.2em;
     letter-spacing: 0.06em;
     border-radius: var(--border-radius);
-    background-color: #00000000;
+    background-color: #ffffff15;
     color: var(--text-color);
     border: var(--border);
     box-shadow: var(--box-shadow);
@@ -166,7 +166,7 @@ button.isok:hover {
 }
 
 button.isok:active {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.25);
     scale: 0.98;
 }
 
